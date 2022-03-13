@@ -4,7 +4,7 @@
 
 body {
     font-style: Courier, monospace;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(0, 0, 0);
 }
 
 .main {
@@ -39,11 +39,13 @@ body {
     height: 80px;
     border-radius: 24px;
     margin-right: 40 px;
-    background: rgb(170, 169, 169);
+    background: rgb(255, 255, 255);
     padding: 10px;
 }
 
 #searchInput {
+    display: flex;
+    align-items: center ;
     width: 200px;
     height: 30px;
     border: 1px solid #000;
@@ -51,7 +53,7 @@ body {
 }
 
 .nameSite {
-    margin-left: 900px;
+    margin-left: 50%;
     font-size: 32px;
     text-decoration: none;
     color: #ffffff
@@ -59,18 +61,28 @@ body {
 
 .main__card {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    background: rgb(170, 169, 169);
-    height: 100vh;
-    margin-top: 20px;
+    background: rgb(255, 255, 255);
+    height: 100%;
+    margin-top: 10px;
     border-radius: 20px;
 }
 
-.main__card {
-    justify-content: space-around;
+.card {
+    width: 240px;
+    height: 360px;
+    margin: 10px;
+}
+.cardP{
+    /* width:100%;
+    height:350px; */
+}
+.cardName{
+
 }
 
-.card {
-    width: 250px;
+.cardCategory{
+
 }
